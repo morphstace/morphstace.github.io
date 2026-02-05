@@ -283,6 +283,15 @@ footer {
   text-align: center;
 }
 
+.disclaimer {
+  margin: 20px 0;
+  padding: 15px;
+  font-size: 0.9em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
